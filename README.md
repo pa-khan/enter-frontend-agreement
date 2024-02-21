@@ -16,12 +16,12 @@ _Последнее изменение: 21.02.2024_
 * Store: [class Singleton](#пример-реализации-store)
 * Валидация данных: [yup](https://yup-docs.vercel.app/)
 * Работа с датами: [Luxon](https://moment.github.io/luxon/#/)
-* Интернационализация: vue-i18n
-* Тестирование: jest
-* Документация методов и функций: JSDoc
-* Документация и тестирование компонентов: Storybook
-* Рекомендуемая IDE: WebStorm
-* Прочее: BabelJS
+* Интернационализация: [vue-i18n](https://vue-i18n.intlify.dev/)
+* Тестирование: [jest](https://jestjs.io/)
+* Документация методов и функций: [JSDoc](https://jsdoc.app/)
+* Документация и тестирование компонентов: [Storybook](https://storybook.js.org/)
+* Рекомендуемая IDE: [WebStorm](https://www.jetbrains.com/webstorm/)
+* Прочее: [Babel](https://babeljs.io/)
 
 
 ## EditorConfig

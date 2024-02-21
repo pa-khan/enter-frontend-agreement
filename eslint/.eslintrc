@@ -1,0 +1,63 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "@vue/typescript/recommended"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "parser": {
+      "ts": "@typescript-eslint/parser",
+      "js": "espree",
+      "<template>": "espree"
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "import"
+  ],
+  "ignorePatterns": [
+    "dist/**/*",
+    "node_modules/**/*"
+  ],
+  "rules": {
+    "indent": "off",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ],
+        "newlines-between": "never"
+      }
+    ],
+    "no-useless-escape": "off",
+    "vue/no-unused-vars": "error",
+    "vue/no-v-html": "off",
+    "vue/html-indent": "off",
+    "vue/component-tags-order": "off",
+    "vue/html-closing-bracket-spacing": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "vue/no-v-text-v-html-on-component": "off"
+  }
+}
